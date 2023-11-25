@@ -1,0 +1,254 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+}
+@media screen and (max-width: 899px) {
+    header {
+        display: flex;
+        background-color: #438952;
+        flex-direction: column;
+        font-weight: bold;
+        text-align: center;
+        align-items: center;
+    }
+    .header_title-text {
+        display: block;
+        color: #BB8B44;
+    }
+    .header_menu-content {
+        display: block;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .header_menu-box {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 0.002%;
+        margin-right: 0.002%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        padding-left: 0.001%;
+        padding-right: 0.001%;
+        display: inline-block;
+        background-color: #BB8B44;
+    }
+    .header_menu-box a {
+        text-decoration: none;
+        color: #438952;
+    }
+    .header_menu-box a:hover {
+        font-style: italic;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    main {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-content: space-between;
+        text-align: center;
+        background-color: #438952;
+    }
+    .main_box-content {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        display: block;
+        background-color: #438952;
+        color: #BB8B44;
+        width: 100%;
+    }
+    .main_aside-left_content {
+        display: none;
+    }
+    .main_aside-right_content {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        display: block;
+        background-color: #BB8B44;
+        flex-direction: column;
+        align-content: space-around;
+        color: #438952;
+        width: 100%;
+    }
+    .main_aside-right_caption {
+        display: block;
+        text-decoration: underline;
+        color: #438952;
+        width: 100%;
+    }
+    .main_aside-right_text {
+        display: block;
+        text-decoration: none;
+        color: #438952;
+        width: 100%;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        background-color: #438952;
+        color: #BB8B44;
+    }
+    .footer_nav-content {
+        display: inline-block;
+        height: 100%;
+        width: 30%;
+    }
+    .footer_nav-content a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #BB8B44;
+    }
+    .footer_nav-content a:hover {
+        text-decoration: underline;
+        font-style: italic;
+        font-weight: bolder;
+    }
+    .footer_content-source {
+    display: inline-block;
+    height: 100%;
+    width: 70%;
+    }
+    .footer_content-source a {
+        text-decoration: none;
+        color: #BB8B44;
+    }
+    .footer_content-source a:hover {
+        text-decoration: underline;
+        font-style: italic;
+        font-weight: bolder;
+    }
+}
+@media screen and (min-width: 900px) {
+    header {
+        display: flex;
+        background-color: #438952;
+        flex-direction: column;
+        font-weight: bold;
+        text-align: center;
+        align-items: center;
+    }
+    .header_title-text {
+        display: block;
+        color: #BB8B44;
+    }
+    .header_menu-content {
+        display: block;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .header_menu-box {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 0.002%;
+        margin-right: 0.002%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        padding-left: 0.001%;
+        padding-right: 0.001%;
+        display: inline-block;
+        background-color: #BB8B44;
+    }
+    .header_menu-box a {
+        text-decoration: none;
+        color: #438952;
+    }
+    .header_menu-box a:hover {
+        font-style: italic;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    main {
+        display: flex;
+        height: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #438952;
+    }
+    .main_box-content {
+        padding: 2%;
+        display: inline-block;
+        background-color: #438952;
+        text-align: center;
+        color: #BB8B44;
+        width: 60%;
+    }
+    .main_aside-left_content {
+        padding: 2%;
+        display: inline-block;
+        background-color: #BB8B44;
+        text-align: left;
+        color: #438952;
+        width: 20%;
+    }
+    .main_aside-left_content a {
+        text-decoration: none;
+        color: #438952;
+    }
+    .main_aside-left_content a:hover {
+        font-style: italic;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    .main_aside-right_content {
+        padding: 2%;
+        display: inline-block;
+        background-color: #BB8B44;
+        flex-direction: column;
+        align-content: space-around;
+        text-align: center;
+        color: #438952;
+        width: 20%;
+    }
+    .main_aside-right_caption {
+        display: block;
+        text-align: center;
+        text-decoration: underline;
+        color: #438952;
+        width: 100%;
+    }
+    .main_aside-right_text {
+        display: block;
+        text-align: right;
+        text-decoration: none;
+        color: #438952;
+        width: 100%;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        background-color: #438952;
+        color: #BB8B44;
+    }
+    .footer_nav-content {
+        display: inline-block;
+        height: 100%;
+        width: 30%;
+    }
+    .footer_nav-content a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #BB8B44;
+    }
+    .footer_nav-content a:hover {
+        text-decoration: underline;
+        font-style: italic;
+        font-weight: bolder;
+    }
+    .footer_content-source {
+        display: inline-block;
+        height: 100%;
+        width: 70%;
+    }
+    .footer_content-source a {
+        text-decoration: none;
+        color: #BB8B44;
+    }
+    .footer_content-source a:hover {
+        text-decoration: underline;
+        font-style: italic;
+        font-weight: bolder;
+    }
+}
